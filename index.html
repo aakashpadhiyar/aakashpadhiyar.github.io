@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W3C2QT6N');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Aakash Padhiyar | Python Django Developer | AI, Automation &amp; Stock Market Analytics</title>
+  <meta name="description" content="Portfolio of Aakash Padhiyar — Python/Django backend developer experienced in REST APIs, automation, web scraping, NSE stock-market analytics, AI integration (Google Gemini), cloud deployment, and Next.js applications.">
+  <meta name="keywords" content="Aakash Padhiyar, Python Developer, Django Developer, Backend Developer, Django REST Framework, Next.js Developer, AI Integration, Google Gemini API, Web Scraping, Selenium, Stock Market Dashboard, NSE Data, NSE Automation, Automation, PostgreSQL, Cloud Deployment, GCP, DigitalOcean, Freelancer, Ahmedabad India">
+  <meta name="author" content="Aakash Padhiyar">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aakashpadhiyar.github.io/">
+  <meta property="og:title" content="Aakash Padhiyar | Python Django Developer | AI, Automation &amp; Stock Market Analytics">
+  <meta property="og:description" content="Python/Django backend developer experienced in REST APIs, automation, NSE stock-market analytics, AI integration, cloud deployment, and Next.js.">
+  <meta property="og:image" content="https://aakashpadhiyar.github.io/assets/img/profile.jpeg">
+  <meta property="og:site_name" content="Aakash Padhiyar Portfolio">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aakash Padhiyar | Python Django Developer | AI &amp; Automation">
+  <meta name="twitter:description" content="Python/Django backend developer — REST APIs, stock market analytics, AI integration, web scraping, cloud deployment.">
+  <meta name="twitter:image" content="https://aakashpadhiyar.github.io/assets/img/profile.jpeg">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://aakashpadhiyar.github.io/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon.png">
+
+  <!-- Google Fonts: Inter + Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Boxicons (local) -->
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W9PGRH0WJF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-W9PGRH0WJF');
+  </script>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3C2QT6N"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Home">AP</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="/assets/aakashpadhiyar-resume.pdf" target="_blank" rel="noopener" class="nav-resume-btn">Resume</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Navigation menu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="/assets/aakashpadhiyar-resume.pdf" target="_blank" rel="noopener">Resume</a></li>
+      </ul>
+    </div>
+    <div class="mobile-overlay" id="mobile-overlay"></div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="hero" aria-label="Hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hi, my name is</p>
+      <h1 class="hero-name">Aakash Padhiyar.</h1>
+      <h2 class="hero-tagline">I'm a <span class="typed-text" id="typed" aria-live="polite"></span><span class="cursor" aria-hidden="true"></span></h2>
+      <p class="hero-description">
+        Python/Django backend developer building
+        <strong style="color:var(--text-primary)">REST APIs, automation systems, live stock-market dashboards,</strong>
+        scraping pipelines, AI assistants, Telegram bots, and
+        <strong style="color:var(--text-primary)">cloud-deployed web applications</strong>.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="/assets/aakashpadhiyar-resume.pdf" target="_blank" rel="noopener" class="btn btn-outline">Download Resume</a>
+      </div>
+    </div>
+
+    <!-- Vertical social sidebar -->
+    <div class="hero-social" aria-label="Social links">
+      <a href="https://www.linkedin.com/in/aakashpadhiyar" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <i class="bx bxl-linkedin"></i>
+      </a>
+      <a href="https://github.com/aakashpadhiyar" target="_blank" rel="noopener" aria-label="GitHub">
+        <i class="bx bxl-github"></i>
+      </a>
+      <a href="https://www.datacamp.com/profile/aakashpadhiyar" target="_blank" rel="noopener" aria-label="DataCamp">
+        <i class="bx bx-data"></i>
+      </a>
+      <a href="mailto:aakashpadhiyar06@gmail.com" aria-label="Email">
+        <i class="bx bx-envelope"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="section about" aria-label="About me">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-num">01.</span> About Me
+      </h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a <strong style="color:var(--text-primary)">Python/Django Backend Developer</strong>
+            with hands-on experience in backend development, REST APIs, automation, web scraping,
+            stock-market data systems, AI integration, cloud deployment, and Next.js frontend integration.
+          </p>
+          <p>
+            I build practical, real-world systems involving
+            <strong style="color:var(--text-primary)">NSE live stock data, trading dashboards, AI assistants, Telegram bots,</strong>
+            scraping automation pipelines, and data-driven web applications deployed on
+            <strong style="color:var(--text-primary)">Google Cloud and DigitalOcean</strong>.
+          </p>
+          <p>
+            Currently pursuing a BCA while actively freelancing — I bring both academic foundation
+            and hands-on production experience. My strongest areas are Django backend development,
+            REST API design, stock market data systems, web scraping, AI/LLM integration, and
+            cloud deployment troubleshooting.
+          </p>
+          <div class="about-info">
+            <div class="about-info-item">
+              <span class="label">Location</span>
+              <span class="value">Ahmedabad, Gujarat, IN</span>
+            </div>
+            <div class="about-info-item">
+              <span class="label">Email</span>
+              <span class="value">
+                <a href="mailto:aakashpadhiyar06@gmail.com">aakashpadhiyar06@gmail.com</a>
+              </span>
+            </div>
+            <div class="about-info-item">
+              <span class="label">Freelance</span>
+              <span class="value" style="color:var(--accent)">Available ✓</span>
+            </div>
+            <div class="about-info-item">
+              <span class="label">Upwork</span>
+              <span class="value">
+                <a href="https://www.upwork.com/freelancers/~016c4fda55b01bc344" target="_blank" rel="noopener">View Profile</a>
+              </span>
+            </div>
+          </div>
+          <a href="/assets/aakashpadhiyar-resume.pdf" target="_blank" rel="noopener" class="btn btn-outline">
+            <i class="bx bx-download"></i> Download Resume
+          </a>
+        </div>
+        <div class="about-image reveal reveal-delay-2">
+          <div class="img-wrapper">
+            <img src="assets/img/profile.jpeg" alt="Aakash Padhiyar — Python Developer & AI Engineer" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE SECTION ===== -->
+  <section id="experience" class="section experience" aria-label="Work experience">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-num">02.</span> Experience
+      </h2>
+
+      <!-- Freelance -->
+      <div class="experience-card reveal">
+        <div class="exp-header">
+          <div>
+            <h3 class="exp-role">Freelance Python &amp; AI Developer</h3>
+            <p class="exp-company">
+              <a href="https://www.upwork.com/freelancers/~016c4fda55b01bc344" target="_blank" rel="noopener">Upwork Platform</a>
+            </p>
+          </div>
+          <span class="exp-date">Feb 2021 – Present</span>
+        </div>
+        <ul class="exp-list">
+          <li>Designed and built scalable REST APIs using Django and Django REST Framework for web and mobile clients</li>
+          <li>Deployed full-stack applications on Google Cloud (Cloud Run, App Engine, Cloud Functions, Cloud SQL, Firestore, Cloud Storage) and AWS</li>
+          <li>Implemented authentication systems using Djoser and Django JWT for secure API access</li>
+          <li>Built background task queues with Celery and Redis for long-running asynchronous jobs</li>
+          <li>Containerized applications using Docker and Docker Compose; configured NGINX and Gunicorn for production deployments</li>
+          <li>Applied machine learning models (scikit-learn, TensorFlow, PyTorch, OpenCV) to solve client data problems</li>
+          <li>Designed microservices architectures and integrated Redis caching for high-performance optimization</li>
+        </ul>
+        <div class="exp-tags">
+          <span>Python</span><span>Django</span><span>DRF</span><span>Docker</span>
+          <span>Redis</span><span>Celery</span><span>Google Cloud</span><span>AWS</span>
+          <span>Machine Learning</span><span>REST APIs</span>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="experience-card reveal reveal-delay-1">
+        <div class="exp-header">
+          <div>
+            <h3 class="exp-role">Bachelor of Computer Application (BCA)</h3>
+            <p class="exp-company">GPG College of Commerce, Ahmedabad</p>
+          </div>
+          <span class="exp-date">Aug 2022 – Present</span>
+        </div>
+        <p class="exp-note">
+          Relevant coursework: Database Management Systems, Software Engineering,
+          Mobile Application Development, Data Structures &amp; Algorithms, Computer Networks.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects" class="section projects" aria-label="Projects">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-num">03.</span> Projects
+      </h2>
+
+      <div class="project-filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="stock">Stock Market</button>
+        <button class="filter-btn" data-filter="ai">AI / Automation</button>
+        <button class="filter-btn" data-filter="web">Web Apps</button>
+        <button class="filter-btn" data-filter="ml">ML / CV</button>
+        <button class="filter-btn" data-filter="data">Data Science</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+
+        <div class="project-card reveal" data-category="web">
+          <div class="project-img">
+            <img src="assets/img/project/mycode.jpg" alt="Craigslist Search Engine" loading="lazy">
+          </div>
+          <div class="project-content">
+            <p class="project-label">Web Scraping · Django</p>
+            <h3 class="project-title">Craigslist Search Engine</h3>
+            <div class="project-desc">
+              <p>A fast, full-featured Craigslist web scraper with a beautiful Django-powered GUI. Filter results by price range and category in real time — a much more elegant frontend to Craigslist.</p>
+            </div>
+            <ul class="project-tech">
+              <li>Python</li><li>Django</li><li>BeautifulSoup</li><li>Bootstrap</li><li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aakashpadhiyar/Django_Scraping-mycode" target="_blank" rel="noopener" aria-label="GitHub Repository">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="projects/mycode.html" aria-label="View Project Details">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-1" data-category="web">
+          <div class="project-img">
+            <img src="assets/img/project/youtube.jpeg" alt="React YouTube Clone" loading="lazy">
+          </div>
+          <div class="project-content">
+            <p class="project-label">Frontend · React.js</p>
+            <h3 class="project-title">React YouTube Clone</h3>
+            <div class="project-desc">
+              <p>A full-featured YouTube clone built with React.js — featuring video playback, channel navigation, search functionality, BEM styling methodology, and responsive CSS Grid layout.</p>
+            </div>
+            <ul class="project-tech">
+              <li>React.js</li><li>JavaScript</li><li>CSS Grid</li><li>BEM</li><li>YouTube API</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aakashpadhiyar/react-youtube-clone" target="_blank" rel="noopener" aria-label="GitHub Repository">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="https://react-74e7c.web.app/" target="_blank" rel="noopener" aria-label="Live Demo">
+                <i class="bx bx-globe"></i>
+              </a>
+              <a href="projects/youclone.html" aria-label="View Project Details">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-2" data-category="ml">
+          <div class="project-img">
+            <img src="assets/img/project/recommender.jpg" alt="Movie Recommendation System" loading="lazy">
+          </div>
+          <div class="project-content">
+            <p class="project-label">Machine Learning · Python</p>
+            <h3 class="project-title">Movie Recommendation System</h3>
+            <div class="project-desc">
+              <p>A collaborative filtering and content-based movie recommendation engine. Suggests films based on user preferences and viewing patterns — similar to how Netflix recommends content.</p>
+            </div>
+            <ul class="project-tech">
+              <li>Python</li><li>scikit-learn</li><li>Pandas</li><li>NumPy</li><li>Jupyter</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aakashpadhiyar/Movie-Recommendation-system" target="_blank" rel="noopener" aria-label="GitHub Repository">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="projects/moviepython.html" aria-label="View Project Details">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="ml">
+          <div class="project-img">
+            <img src="assets/img/project/gan.jpg" alt="Multiple Face Recognition" loading="lazy">
+          </div>
+          <div class="project-content">
+            <p class="project-label">Computer Vision · OpenCV</p>
+            <h3 class="project-title">Multiple Face Recognition AI</h3>
+            <div class="project-desc">
+              <p>Real-time multiple face detection and recognition system using Python and OpenCV. Capable of identifying and drawing bounding boxes around multiple faces simultaneously from live video streams.</p>
+            </div>
+            <ul class="project-tech">
+              <li>Python</li><li>OpenCV</li><li>face_recognition</li><li>NumPy</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aakashpadhiyar/Multiple-Face-Recognition-AI-using-Python" target="_blank" rel="noopener" aria-label="GitHub Repository">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="projects/mfr.html" aria-label="View Project Details">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-1" data-category="data">
+          <div class="project-img">
+            <img src="assets/img/project/ml.jpg" alt="NBA Basketball Stats Explorer" loading="lazy">
+          </div>
+          <div class="project-content">
+            <p class="project-label">Data Science · Streamlit</p>
+            <h3 class="project-title">NBA Basketball Stats Explorer</h3>
+            <div class="project-desc">
+              <p>An interactive NBA statistics explorer built with Python and Streamlit. Browse player performance stats, filter by team and year, and visualize data through heatmaps and charts.</p>
+            </div>
+            <ul class="project-tech">
+              <li>Python</li><li>Streamlit</li><li>Pandas</li><li>Seaborn</li><li>Matplotlib</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aakashpadhiyar/Streamlit_basketBall_dataframe" target="_blank" rel="noopener" aria-label="GitHub Repository">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="projects/streamb.html" aria-label="View Project Details">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-2" data-category="data">
+          <div class="project-img">
+            <img src="assets/img/project/vdg.jpg" alt="DNA Sequence Visualizer" loading="lazy">
+          </div>
+          <div class="project-content">
+            <p class="project-label">Bioinformatics · Streamlit</p>
+            <h3 class="project-title">DNA Sequence Visualizer</h3>
+            <div class="project-desc">
+              <p>A bioinformatics web app for DNA nucleotide counting and composition visualization. Input any DNA sequence and generate interactive bar charts and dataframes showing nucleotide distribution.</p>
+            </div>
+            <ul class="project-tech">
+              <li>Python</li><li>Streamlit</li><li>Altair</li><li>Pandas</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aakashpadhiyar/streamlit_basics_eg-DNA-App" target="_blank" rel="noopener" aria-label="GitHub Repository">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="projects/streamd.html" aria-label="View Project Details">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="data">
+          <div class="project-img">
+            <img src="assets/img/project/iras.jpeg" alt="Stock Price Tracker" loading="lazy">
+          </div>
+          <div class="project-content">
+            <p class="project-label">FinTech · Streamlit</p>
+            <h3 class="project-title">Stock Price Tracker</h3>
+            <div class="project-desc">
+              <p>Real-time stock market data tracker built with Streamlit and yfinance. Visualizes historical price trends, closing prices, and volume data for any publicly traded company.</p>
+            </div>
+            <ul class="project-tech">
+              <li>Python</li><li>Streamlit</li><li>yfinance</li><li>Pandas</li><li>Bokeh</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aakashpadhiyar/Stock-Price-App-Python-Streamlit" target="_blank" rel="noopener" aria-label="GitHub Repository">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="projects/streamstock.html" aria-label="View Project Details">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-1" data-category="web">
+          <div class="project-img">
+            <img src="assets/img/project/pomo.jpg" alt="Pomodoro Timer Web App" loading="lazy">
+          </div>
+          <div class="project-content">
+            <p class="project-label">Productivity · React.js</p>
+            <h3 class="project-title">Pomodoro Timer Web App</h3>
+            <div class="project-desc">
+              <p>A clean, minimal Pomodoro productivity timer. Features customizable work/break intervals, color transitions for mood switching, audio notifications, and responsive design for mobile and desktop.</p>
+            </div>
+            <ul class="project-tech">
+              <li>React.js</li><li>JavaScript</li><li>CSS3</li><li>HTML5</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aakashpadhiyar/pomodoro-react" target="_blank" rel="noopener" aria-label="GitHub Repository">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="https://codesandbox.io/s/github/aakashpadhiyar/pomodoro-react" target="_blank" rel="noopener" aria-label="Live Demo">
+                <i class="bx bx-globe"></i>
+              </a>
+              <a href="projects/pomo.html" aria-label="View Project Details">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+        <!-- NEW: Stock Market Web Application -->
+        <div class="project-card reveal" data-category="stock">
+          <div class="project-img project-img-placeholder project-img-stock">
+            <i class="bx bx-line-chart"></i>
+            <span>Stock Market Dashboard</span>
+          </div>
+          <div class="project-content">
+            <p class="project-label">Stock Market · Django · Next.js</p>
+            <h3 class="project-title">NSE Stock Market Analytics Platform</h3>
+            <div class="project-desc">
+              <p>Full-stack analytics platform with live NSE stock data, market scanners, gainers/losers, volume shockers, block deals, F&amp;O data, AI summaries, watchlists, and historical comparison — built with Django, DRF, Next.js, and PostgreSQL.</p>
+            </div>
+            <ul class="project-tech">
+              <li>Django</li><li>DRF</li><li>Next.js</li><li>PostgreSQL</li>
+              <li>Pandas</li><li>Selenium</li><li>Tailwind CSS</li><li>Gemini API</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aakashpadhiyar" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="bx bxl-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- NEW: AI Stock Assistant -->
+        <div class="project-card reveal reveal-delay-1" data-category="stock ai">
+          <div class="project-img project-img-placeholder project-img-ai">
+            <i class="bx bx-bot"></i>
+            <span>AI Stock Assistant</span>
+          </div>
+          <div class="project-content">
+            <p class="project-label">AI · Gemini API · Stock Analysis</p>
+            <h3 class="project-title">AI-Powered Stock Market Assistant</h3>
+            <div class="project-desc">
+              <p>Integrated Google Gemini-powered assistant for AI stock summaries, NIFTY50 analysis, LTP/volume trend insights, and market bias detection. Includes Telegram alert delivery and prompt-engineered stock analysis workflows.</p>
+            </div>
+            <ul class="project-tech">
+              <li>Python</li><li>Gemini API</li><li>Django</li>
+              <li>Telegram Bot API</li><li>Pandas</li><li>Prompt Engineering</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aakashpadhiyar" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="bx bxl-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- NEW: NSE Scraping Automation -->
+        <div class="project-card reveal reveal-delay-2" data-category="stock ai">
+          <div class="project-img project-img-placeholder project-img-scraping">
+            <i class="bx bx-data"></i>
+            <span>NSE Scraping Automation</span>
+          </div>
+          <div class="project-content">
+            <p class="project-label">Automation · Selenium · NSE Data</p>
+            <h3 class="project-title">NSE Data Scraping &amp; Automation System</h3>
+            <div class="project-desc">
+              <p>Automation pipelines for collecting live NSE stock data — block deals, gainers, volume shockers, pre-open market, and delivery positions. Uses Selenium, BeautifulSoup, Django management commands, systemd scheduling, and proxy configuration.</p>
+            </div>
+            <ul class="project-tech">
+              <li>Python</li><li>Selenium</li><li>BeautifulSoup</li>
+              <li>Django</li><li>Systemd</li><li>Smartproxy</li><li>Pandas</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aakashpadhiyar" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="bx bxl-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- NEW: Telegram Stock Alert Bot -->
+        <div class="project-card reveal" data-category="stock ai">
+          <div class="project-img project-img-placeholder project-img-telegram">
+            <i class="bx bxl-telegram"></i>
+            <span>Telegram Stock Bot</span>
+          </div>
+          <div class="project-content">
+            <p class="project-label">Telegram Bot · AI · Stock Alerts</p>
+            <h3 class="project-title">Telegram AI Stock Alert Bot</h3>
+            <div class="project-desc">
+              <p>A Telegram bot for delivering AI-generated stock market alerts, Gemini-powered daily summaries, LTP/volume trend messages, corporate meeting analysis, and market-hour notifications using live NSE data.</p>
+            </div>
+            <ul class="project-tech">
+              <li>Python</li><li>Telegram Bot API</li><li>Gemini API</li>
+              <li>Django</li><li>Pandas</li><li>NSE Data</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aakashpadhiyar" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="bx bxl-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- NEW: StudyAI App -->
+        <div class="project-card reveal reveal-delay-1" data-category="ai">
+          <div class="project-img project-img-placeholder project-img-study">
+            <i class="bx bx-book-open"></i>
+            <span>StudyAI Mobile App</span>
+          </div>
+          <div class="project-content">
+            <p class="project-label">React Native · AI · OCR · Education</p>
+            <h3 class="project-title">StudyAI — AI Education Assistant (Planned)</h3>
+            <div class="project-desc">
+              <p>Designed a React Native + FastAPI-based AI education app where students upload PDFs/images, extract content via OCR, and chat with a multilingual AI tutor in English, Hindi, and Gujarati. Architecture includes offline LLM mode and voice conversation support.</p>
+            </div>
+            <ul class="project-tech">
+              <li>React Native</li><li>FastAPI</li><li>Ollama</li>
+              <li>OCR</li><li>Gemini API</li><li>Voice AI</li><li>Expo</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aakashpadhiyar" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="bx bxl-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- NEW: AI Content Automation -->
+        <div class="project-card reveal reveal-delay-2" data-category="ai">
+          <div class="project-img project-img-placeholder project-img-content">
+            <i class="bx bx-broadcast"></i>
+            <span>AI Content Automation</span>
+          </div>
+          <div class="project-content">
+            <p class="project-label">AI Agents · Automation · Social Media</p>
+            <h3 class="project-title">AI LinkedIn Content Automation (Planned)</h3>
+            <div class="project-desc">
+              <p>Designing an AI-powered system to generate daily LinkedIn posts with AI-generated images, engagement-focused captions, Telegram-based human approval before publishing, and VPS-scheduled automation — a human-in-the-loop content pipeline.</p>
+            </div>
+            <ul class="project-tech">
+              <li>Python</li><li>AI Agents</li><li>Image Generation</li>
+              <li>Telegram Bot API</li><li>VPS</li><li>Social Automation</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aakashpadhiyar" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="bx bxl-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- NEW: Cloud Backend Deployment -->
+        <div class="project-card reveal" data-category="web">
+          <div class="project-img project-img-placeholder project-img-cloud">
+            <i class="bx bx-cloud"></i>
+            <span>Cloud Backend Setup</span>
+          </div>
+          <div class="project-content">
+            <p class="project-label">Cloud · DevOps · Production Deployment</p>
+            <h3 class="project-title">Production Django Cloud Deployment</h3>
+            <div class="project-desc">
+              <p>Deployed and managed Django applications on Google Cloud VM, Cloud SQL, and DigitalOcean — including Gunicorn, Daphne/ASGI, Nginx setup, systemd service configuration, market-hour cron scripts, log monitoring, and production debugging.</p>
+            </div>
+            <ul class="project-tech">
+              <li>GCP</li><li>DigitalOcean</li><li>Django</li><li>Gunicorn</li>
+              <li>Daphne</li><li>Nginx</li><li>Systemd</li><li>PostgreSQL</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/aakashpadhiyar" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="bx bxl-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- end projects-grid -->
+
+      <div class="projects-more reveal">
+        <a href="https://github.com/aakashpadhiyar" target="_blank" rel="noopener" class="btn btn-outline">
+          <i class="bx bxl-github"></i> More Projects on GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section id="skills" class="section skills" aria-label="Skills">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-num">04.</span> Skills
+      </h2>
+      <div class="skills-grid">
+
+        <div class="skill-category reveal">
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>JavaScript</span><span>Java</span>
+            <span>HTML5</span><span>CSS3</span><span>SQL</span><span>Bash / Shell</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal reveal-delay-1">
+          <h3>Backend Development</h3>
+          <div class="skill-tags">
+            <span>Django</span><span>Django REST Framework</span><span>Flask</span><span>FastAPI</span>
+            <span>REST API Design</span><span>Django ORM</span><span>Django Channels</span>
+            <span>WebSocket / ASGI</span><span>Celery</span><span>JWT Auth</span>
+            <span>Djoser</span><span>Class-Based Views</span><span>Django Serializers</span>
+            <span>Management Commands</span><span>API Pagination</span><span>API Filtering</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal reveal-delay-2">
+          <h3>Frontend Development</h3>
+          <div class="skill-tags">
+            <span>Next.js</span><span>React.js</span><span>React Native</span>
+            <span>Tailwind CSS</span><span>Bootstrap</span><span>CSS Grid</span>
+            <span>Responsive UI</span><span>Dark / Light Theme</span>
+            <span>Dynamic Tables</span><span>Search &amp; Filters</span>
+            <span>Chart-Based UI</span><span>Stock Dashboard UI</span>
+            <span>API Integration</span><span>Modal Popups</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3>Databases &amp; Data</h3>
+          <div class="skill-tags">
+            <span>PostgreSQL</span><span>MySQL</span><span>SQLite</span><span>MongoDB</span>
+            <span>Redis</span><span>Cloud SQL</span><span>Firebase / Firestore</span>
+            <span>Pandas</span><span>NumPy</span><span>CSV Processing</span>
+            <span>Time-Series Data</span><span>Query Optimization</span><span>Data Aggregation</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal reveal-delay-1">
+          <h3>Web Scraping &amp; Automation</h3>
+          <div class="skill-tags">
+            <span>Selenium</span><span>BeautifulSoup</span><span>Scrapy Concepts</span>
+            <span>NSE Data Scraping</span><span>Dynamic Site Scraping</span>
+            <span>Proxy Configuration</span><span>Smartproxy</span>
+            <span>Scheduled Scraping</span><span>Background Scripts</span>
+            <span>CSV / PDF Processing</span><span>Browser Automation</span>
+            <span>Data Cleaning Pipelines</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal reveal-delay-2">
+          <h3>Stock Market &amp; FinTech</h3>
+          <div class="skill-tags">
+            <span>NSE Live Stock Data</span><span>NIFTY50 Analysis</span>
+            <span>F&amp;O Data</span><span>Pre-Open Market Data</span>
+            <span>Block Deals</span><span>Volume Shockers</span>
+            <span>Stock Gainers / Losers</span><span>Option Chain</span>
+            <span>Intraday Market Analysis</span><span>LTP &amp; Volume Trends</span>
+            <span>Market Scanners</span><span>Watchlist Systems</span>
+            <span>Telegram Stock Alerts</span><span>AI Stock Summaries</span>
+            <span>Paper Trading Systems</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3>AI &amp; LLM Integration</h3>
+          <div class="skill-tags">
+            <span>Google Gemini API</span><span>Gemini 2.0 Flash</span>
+            <span>Prompt Engineering</span><span>AI Agents</span>
+            <span>Ollama</span><span>Local LLMs</span>
+            <span>AI Chatbots</span><span>Telegram AI Bots</span>
+            <span>AI Stock Analysis</span><span>LLM-Based Automation</span>
+            <span>Multilingual AI</span><span>Voice AI Planning</span>
+            <span>OCR / Document AI</span><span>Multimodal AI</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal reveal-delay-1">
+          <h3>Cloud &amp; DevOps</h3>
+          <div class="skill-tags">
+            <span>Google Cloud Platform</span><span>GCP Cloud VM</span>
+            <span>DigitalOcean</span><span>VPS Deployment</span>
+            <span>Gunicorn</span><span>Daphne / ASGI</span><span>Nginx</span>
+            <span>Systemd Services</span><span>Docker</span><span>Docker Compose</span>
+            <span>Scheduled Shell Scripts</span><span>Log Monitoring</span>
+            <span>Production Debugging</span><span>Environment Variables</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal reveal-delay-2">
+          <h3>APIs &amp; Tools</h3>
+          <div class="skill-tags">
+            <span>Telegram Bot API</span><span>Motilal Oswal Trading API</span>
+            <span>Upstox API</span><span>yfinance</span><span>REST APIs</span>
+            <span>WebSocket APIs</span><span>OAuth</span>
+            <span>Git</span><span>GitHub</span><span>Jupyter</span>
+            <span>VS Code</span><span>Linux Terminal</span><span>Android Studio</span>
+            <span>scikit-learn</span><span>TensorFlow</span><span>OpenCV</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS SECTION ===== -->
+  <section id="certifications" class="section certifications" aria-label="Certifications">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-num">05.</span> Certifications
+      </h2>
+      <div class="cert-grid">
+
+        <a href="assets/img/certification/infosys-django.png" target="_blank" rel="noopener" class="cert-card reveal">
+          <img src="assets/img/certification/infosys-django.png" alt="Mastering Django Web Development — Infosys" loading="lazy">
+          <div class="cert-info">
+            <p class="cert-issuer">Infosys</p>
+            <h4>Mastering Django Web Development</h4>
+          </div>
+        </a>
+
+        <a href="assets/img/certification/infosys-python.png" target="_blank" rel="noopener" class="cert-card reveal reveal-delay-1">
+          <img src="assets/img/certification/infosys-python.png" alt="Mastering Python — Infosys" loading="lazy">
+          <div class="cert-info">
+            <p class="cert-issuer">Infosys</p>
+            <h4>Mastering Python</h4>
+          </div>
+        </a>
+
+        <a href="https://www.datacamp.com/statement-of-accomplishment/track/f2d02880815d842c396500008a95769f179dc5ba" target="_blank" rel="noopener" class="cert-card reveal reveal-delay-2">
+          <img src="assets/img/certification/datacamp.png" alt="Data Scientist with Python — DataCamp" loading="lazy">
+          <div class="cert-info">
+            <p class="cert-issuer">DataCamp</p>
+            <h4>Data Scientist with Python</h4>
+          </div>
+        </a>
+
+        <a href="https://www.datacamp.com/statement-of-accomplishment/course/3023a26c7fd024e6232b7c9ead7a34bfa045786c" target="_blank" rel="noopener" class="cert-card reveal">
+          <img src="assets/img/certification/datacamp.png" alt="Intermediate Python — DataCamp" loading="lazy">
+          <div class="cert-info">
+            <p class="cert-issuer">DataCamp</p>
+            <h4>Intermediate Python</h4>
+          </div>
+        </a>
+
+        <a href="https://www.hackerrank.com/certificates/1cf66c637559" target="_blank" rel="noopener" class="cert-card reveal reveal-delay-1">
+          <img src="assets/img/certification/hackerrank.png" alt="REST API Intermediate — HackerRank" loading="lazy">
+          <div class="cert-info">
+            <p class="cert-issuer">HackerRank</p>
+            <h4>REST API (Intermediate)</h4>
+          </div>
+        </a>
+
+        <a href="https://www.hackerrank.com/certificates/a574a84e59e3" target="_blank" rel="noopener" class="cert-card reveal reveal-delay-2">
+          <img src="assets/img/certification/hackerrank.png" alt="Python Basic — HackerRank" loading="lazy">
+          <div class="cert-info">
+            <p class="cert-issuer">HackerRank</p>
+            <h4>Python (Basic)</h4>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="section contact" aria-label="Contact">
+    <div class="container">
+      <h2 class="section-title reveal" style="justify-content:center; white-space:nowrap">
+        <span class="section-num">06.</span> Get In Touch
+      </h2>
+      <div class="contact-content reveal">
+        <p class="contact-sub">Available for Freelance &amp; Full-time Roles</p>
+        <h3 class="contact-heading">Let's Work Together</h3>
+        <p class="contact-text">
+          Whether you have a Python/Django project, need an AI-powered solution,
+          or just want to say hello — my inbox is always open. I'm currently
+          available for freelance contracts and interesting full-time opportunities.
+        </p>
+        <a href="mailto:aakashpadhiyar06@gmail.com" class="btn btn-primary btn-lg">
+          <i class="bx bx-envelope"></i> Say Hello
+        </a>
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="bx bx-map"></i>
+            <span>Ahmedabad, Gujarat, India</span>
+          </div>
+          <div class="contact-item">
+            <i class="bx bx-envelope"></i>
+            <a href="mailto:aakashpadhiyar06@gmail.com">aakashpadhiyar06@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <i class="bx bxl-linkedin"></i>
+            <a href="https://www.linkedin.com/in/aakashpadhiyar" target="_blank" rel="noopener">LinkedIn Profile</a>
+          </div>
+          <div class="contact-item">
+            <i class="bx bx-briefcase"></i>
+            <a href="https://www.upwork.com/freelancers/~016c4fda55b01bc344" target="_blank" rel="noopener">Hire on Upwork</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" aria-label="Footer">
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/aakashpadhiyar" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <i class="bx bxl-linkedin"></i>
+      </a>
+      <a href="https://github.com/aakashpadhiyar" target="_blank" rel="noopener" aria-label="GitHub">
+        <i class="bx bxl-github"></i>
+      </a>
+      <a href="https://www.datacamp.com/profile/aakashpadhiyar" target="_blank" rel="noopener" aria-label="DataCamp">
+        <i class="bx bx-data"></i>
+      </a>
+      <a href="mailto:aakashpadhiyar06@gmail.com" aria-label="Email">
+        <i class="bx bx-envelope"></i>
+      </a>
+      <a href="https://join.skype.com/invite/eAkxgNXfjRHm" target="_blank" rel="noopener" aria-label="Skype">
+        <i class="bx bxl-skype"></i>
+      </a>
+    </div>
+    <p>Designed &amp; Built by <strong>Aakash Padhiyar</strong></p>
+    <p style="margin-top:6px; font-size:0.78rem; opacity:0.6;">
+      &copy; <span id="year"></span> — All rights reserved
+    </p>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    <i class="bx bx-up-arrow-alt"></i>
+  </button>
+
+  <!-- Main JS (no jQuery dependency) -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

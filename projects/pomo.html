@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Timer Web App | Aakash Padhiyar</title>
+  <meta name="description" content="A clean, minimal Pomodoro productivity timer built with React.js — customizable intervals, color transitions, audio notifications.">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+<body class="project-page-body">
+
+  <nav class="project-page-nav">
+    <a href="/" class="back-link">
+      <i class="bx bx-arrow-back"></i> Back to Portfolio
+    </a>
+    <a href="/" class="nav-logo" aria-label="Home">AP</a>
+  </nav>
+
+  <main class="project-detail">
+    <div class="project-detail-header">
+      <p class="project-detail-label">Productivity · React.js · Frontend</p>
+      <h1 class="project-detail-title">Pomodoro Timer Web App</h1>
+
+      <div class="project-detail-meta">
+        <span class="meta-tag">React.js</span>
+        <span class="meta-tag">JavaScript</span>
+        <span class="meta-tag">CSS3</span>
+        <span class="meta-tag">HTML5</span>
+        <span class="meta-tag">Web Audio API</span>
+      </div>
+
+      <div class="project-detail-links">
+        <a href="https://github.com/aakashpadhiyar/pomodoro-react" target="_blank" rel="noopener" class="btn btn-outline">
+          <i class="bx bxl-github"></i> GitHub
+        </a>
+        <a href="https://codesandbox.io/s/github/aakashpadhiyar/pomodoro-react" target="_blank" rel="noopener" class="btn btn-primary">
+          <i class="bx bx-globe"></i> Live Demo
+        </a>
+      </div>
+    </div>
+
+    <div class="project-detail-img">
+      <img src="../assets/img/project/pomo.jpg" alt="Pomodoro Timer Web App" loading="lazy">
+    </div>
+
+    <div class="project-detail-body">
+      <h2>What is the Pomodoro Technique?</h2>
+      <p>
+        The Pomodoro Technique was created by Francesco Cirillo for a more productive way
+        to work and study. The technique uses a timer to break down work into intervals —
+        traditionally 25 minutes in length — separated by short breaks. Each interval is
+        known as a <em>pomodoro</em>, from the Italian word for "tomato", after the
+        tomato-shaped kitchen timer Cirillo used as a university student.
+      </p>
+
+      <h2>Features</h2>
+      <ul>
+        <li>Customizable work/break interval durations to suit your preference</li>
+        <li>Color transition animations to shift mood between work and rest modes</li>
+        <li>Audio notification at the end of each timer period</li>
+        <li>Session counter to track completed Pomodoros</li>
+        <li>Fully responsive — works on desktop and mobile</li>
+        <li>Clean, distraction-free minimal UI</li>
+      </ul>
+
+      <h2>How to Use It</h2>
+      <ol>
+        <li>Add the tasks you want to work on today</li>
+        <li>Set your estimated Pomodoros (1 = 25 minutes of work)</li>
+        <li>Select a task to focus on</li>
+        <li>Start the timer and focus for 25 minutes</li>
+        <li>Take a 5-minute break when the alarm rings</li>
+        <li>After 4 Pomodoros, take a longer 15-30 minute break</li>
+      </ol>
+
+      <h2>What I Learned</h2>
+      <p>
+        Building this app deepened my understanding of React hooks (useState, useEffect,
+        useRef) for managing timer state, interval cleanup on component unmount, and
+        browser audio API integration. The color transition animations taught me how to
+        apply dynamic CSS class changes in React for smooth UI transitions.
+      </p>
+    </div>
+  </main>
+
+</body>
+</html>

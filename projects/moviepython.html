@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Recommendation System | Aakash Padhiyar</title>
+  <meta name="description" content="A collaborative filtering and content-based movie recommendation engine built with Python and scikit-learn.">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+<body class="project-page-body">
+
+  <nav class="project-page-nav">
+    <a href="/" class="back-link">
+      <i class="bx bx-arrow-back"></i> Back to Portfolio
+    </a>
+    <a href="/" class="nav-logo" aria-label="Home">AP</a>
+  </nav>
+
+  <main class="project-detail">
+    <div class="project-detail-header">
+      <p class="project-detail-label">Machine Learning · Recommender Systems</p>
+      <h1 class="project-detail-title">Movie Recommendation System</h1>
+
+      <div class="project-detail-meta">
+        <span class="meta-tag">Python</span>
+        <span class="meta-tag">scikit-learn</span>
+        <span class="meta-tag">Pandas</span>
+        <span class="meta-tag">NumPy</span>
+        <span class="meta-tag">Jupyter Notebook</span>
+        <span class="meta-tag">CSV Dataset</span>
+      </div>
+
+      <div class="project-detail-links">
+        <a href="https://github.com/aakashpadhiyar/Movie-Recommendation-system" target="_blank" rel="noopener" class="btn btn-outline">
+          <i class="bx bxl-github"></i> GitHub
+        </a>
+        <a href="https://replit.com/github/aakashpadhiyar/Movie-Recommendation-system" target="_blank" rel="noopener" class="btn btn-outline">
+          <i class="bx bx-code-block"></i> Replit
+        </a>
+      </div>
+    </div>
+
+    <div class="project-detail-img">
+      <img src="../assets/img/project/recommender.jpg" alt="Movie Recommendation System" loading="lazy">
+    </div>
+
+    <div class="project-detail-body">
+      <h2>Project Overview</h2>
+      <p>
+        You may not know the formal definition of a Recommender System, but you've definitely
+        encountered one before. They're present everywhere — Amazon suggests products, Netflix
+        recommends shows, Medium surfaces articles. Under the hood, a recommendation engine
+        is working to predict what you'll like next.
+      </p>
+      <p>
+        This project implements a movie recommendation system using both collaborative filtering
+        and content-based filtering techniques, built with Python and scikit-learn.
+      </p>
+
+      <h2>How It Works</h2>
+      <ul>
+        <li><strong>Content-Based Filtering:</strong> Recommends movies similar to ones the user has rated highly, based on genre, cast, director, and description metadata</li>
+        <li><strong>Collaborative Filtering:</strong> Finds patterns across user ratings to suggest movies liked by users with similar taste profiles</li>
+        <li>Cosine similarity matrix computed from TF-IDF vectorized movie descriptions</li>
+        <li>Dataset sourced from MovieLens CSV files</li>
+      </ul>
+
+      <h2>What I Learned</h2>
+      <p>
+        This project was a deep dive into machine learning fundamentals — specifically similarity
+        computation, matrix factorization, and the trade-offs between content-based vs.
+        collaborative filtering approaches. Working with real-world MovieLens data taught me
+        how to handle sparse matrices and cold-start problems in recommender systems.
+      </p>
+    </div>
+  </main>
+
+</body>
+</html>

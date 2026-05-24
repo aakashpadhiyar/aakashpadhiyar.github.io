@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Face Recognition AI | Aakash Padhiyar</title>
+  <meta name="description" content="Real-time multiple face detection and recognition system using Python, OpenCV, and the face_recognition library.">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+<body class="project-page-body">
+
+  <nav class="project-page-nav">
+    <a href="/" class="back-link">
+      <i class="bx bx-arrow-back"></i> Back to Portfolio
+    </a>
+    <a href="/" class="nav-logo" aria-label="Home">AP</a>
+  </nav>
+
+  <main class="project-detail">
+    <div class="project-detail-header">
+      <p class="project-detail-label">Computer Vision · Deep Learning · Python</p>
+      <h1 class="project-detail-title">Multiple Face Recognition AI</h1>
+
+      <div class="project-detail-meta">
+        <span class="meta-tag">Python</span>
+        <span class="meta-tag">OpenCV</span>
+        <span class="meta-tag">face_recognition</span>
+        <span class="meta-tag">NumPy</span>
+        <span class="meta-tag">dlib</span>
+        <span class="meta-tag">Jupyter Notebook</span>
+      </div>
+
+      <div class="project-detail-links">
+        <a href="https://github.com/aakashpadhiyar/Multiple-Face-Recognition-AI-using-Python" target="_blank" rel="noopener" class="btn btn-outline">
+          <i class="bx bxl-github"></i> GitHub
+        </a>
+        <a href="https://replit.com/github/aakashpadhiyar/Multiple-Face-Recognition-AI-using-Python" target="_blank" rel="noopener" class="btn btn-outline">
+          <i class="bx bx-code-block"></i> Replit
+        </a>
+      </div>
+    </div>
+
+    <div class="project-detail-img">
+      <img src="../assets/img/project/gan.jpg" alt="Multiple Face Recognition AI" loading="lazy">
+    </div>
+
+    <div class="project-detail-body">
+      <h2>Project Overview</h2>
+      <p>
+        A real-time multiple face detection and recognition system built in Python using
+        OpenCV and the <code style="color:var(--accent); font-family:var(--font-mono)">face_recognition</code> library
+        (built on top of dlib's deep learning models). The system can detect and identify
+        multiple faces simultaneously from a live webcam feed or video stream.
+      </p>
+
+      <h2>How It Works</h2>
+      <ul>
+        <li>Uses HOG (Histogram of Oriented Gradients) or CNN-based face detection to locate faces in each video frame</li>
+        <li>Extracts 128-dimensional facial encodings using a deep neural network</li>
+        <li>Compares live encodings against a pre-built database of known faces using Euclidean distance</li>
+        <li>Draws labeled bounding boxes around each identified person in real time</li>
+        <li>Handles multiple simultaneous faces with smooth frame-by-frame processing</li>
+      </ul>
+
+      <h2>Technical Highlights</h2>
+      <ul>
+        <li>Built on dlib's state-of-the-art face recognition neural network achieving 99.38% accuracy on the LFW benchmark</li>
+        <li>OpenCV handles video capture and image processing pipeline</li>
+        <li>Modular code structure: easily extend with new faces by adding images to the known faces directory</li>
+      </ul>
+
+      <h2>What I Learned</h2>
+      <p>
+        This project gave me hands-on experience with computer vision fundamentals, facial
+        landmark detection, and deep learning embeddings. Understanding how face encodings
+        work — mapping a face to a point in 128-dimensional space — was a fascinating
+        introduction to the practical applications of deep learning.
+      </p>
+    </div>
+  </main>
+
+</body>
+</html>
