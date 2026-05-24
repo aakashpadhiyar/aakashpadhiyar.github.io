@@ -217,7 +217,7 @@
           <li>Implemented authentication systems using Djoser and Django JWT for secure API access</li>
           <li>Built background task queues with Celery and Redis for long-running asynchronous jobs</li>
           <li>Containerized applications using Docker and Docker Compose; configured NGINX and Gunicorn for production deployments</li>
-          <li>Applied machine learning models (scikit-learn, TensorFlow, PyTorch, OpenCV) to solve client data problems</li>
+          <li>Integrated Google Gemini API for AI-powered stock summaries, prompt-engineered analysis workflows, and Telegram-based alert delivery</li>
           <li>Designed microservices architectures and integrated Redis caching for high-performance optimization</li>
         </ul>
         <div class="exp-tags">
@@ -256,21 +256,20 @@
         <button class="filter-btn" data-filter="stock">Stock Market</button>
         <button class="filter-btn" data-filter="ai">AI / Automation</button>
         <button class="filter-btn" data-filter="web">Web Apps</button>
-        <button class="filter-btn" data-filter="ml">ML / CV</button>
-        <button class="filter-btn" data-filter="data">Data Science</button>
       </div>
 
       <div class="projects-grid" id="projects-grid">
 
         <div class="project-card reveal" data-category="web">
-          <div class="project-img">
-            <img src="assets/img/project/mycode.jpg" alt="Craigslist Search Engine" loading="lazy">
+          <div class="project-img project-img-placeholder project-img-django">
+            <i class="bx bx-search-alt"></i>
+            <span>Django Web Scraper</span>
           </div>
           <div class="project-content">
             <p class="project-label">Web Scraping · Django</p>
             <h3 class="project-title">Craigslist Search Engine</h3>
             <div class="project-desc">
-              <p>A fast, full-featured Craigslist web scraper with a beautiful Django-powered GUI. Filter results by price range and category in real time — a much more elegant frontend to Craigslist.</p>
+              <p>A fast, full-featured Craigslist web scraper with a Django-powered GUI. Filter results by price range and category in real time — a much cleaner frontend to Craigslist's cluttered interface.</p>
             </div>
             <ul class="project-tech">
               <li>Python</li><li>Django</li><li>BeautifulSoup</li><li>Bootstrap</li><li>JavaScript</li>
@@ -286,138 +285,16 @@
           </div>
         </div>
 
-        <div class="project-card reveal reveal-delay-1" data-category="web">
-          <div class="project-img">
-            <img src="assets/img/project/youtube.jpeg" alt="React YouTube Clone" loading="lazy">
-          </div>
-          <div class="project-content">
-            <p class="project-label">Frontend · React.js</p>
-            <h3 class="project-title">React YouTube Clone</h3>
-            <div class="project-desc">
-              <p>A full-featured YouTube clone built with React.js — featuring video playback, channel navigation, search functionality, BEM styling methodology, and responsive CSS Grid layout.</p>
-            </div>
-            <ul class="project-tech">
-              <li>React.js</li><li>JavaScript</li><li>CSS Grid</li><li>BEM</li><li>YouTube API</li>
-            </ul>
-            <div class="project-links">
-              <a href="https://github.com/aakashpadhiyar/react-youtube-clone" target="_blank" rel="noopener" aria-label="GitHub Repository">
-                <i class="bx bxl-github"></i>
-              </a>
-              <a href="https://react-74e7c.web.app/" target="_blank" rel="noopener" aria-label="Live Demo">
-                <i class="bx bx-globe"></i>
-              </a>
-              <a href="projects/youclone.html" aria-label="View Project Details">
-                <i class="bx bx-link-external"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal reveal-delay-2" data-category="ml">
-          <div class="project-img">
-            <img src="assets/img/project/recommender.jpg" alt="Movie Recommendation System" loading="lazy">
-          </div>
-          <div class="project-content">
-            <p class="project-label">Machine Learning · Python</p>
-            <h3 class="project-title">Movie Recommendation System</h3>
-            <div class="project-desc">
-              <p>A collaborative filtering and content-based movie recommendation engine. Suggests films based on user preferences and viewing patterns — similar to how Netflix recommends content.</p>
-            </div>
-            <ul class="project-tech">
-              <li>Python</li><li>scikit-learn</li><li>Pandas</li><li>NumPy</li><li>Jupyter</li>
-            </ul>
-            <div class="project-links">
-              <a href="https://github.com/aakashpadhiyar/Movie-Recommendation-system" target="_blank" rel="noopener" aria-label="GitHub Repository">
-                <i class="bx bxl-github"></i>
-              </a>
-              <a href="projects/moviepython.html" aria-label="View Project Details">
-                <i class="bx bx-link-external"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal" data-category="ml">
-          <div class="project-img">
-            <img src="assets/img/project/gan.jpg" alt="Multiple Face Recognition" loading="lazy">
-          </div>
-          <div class="project-content">
-            <p class="project-label">Computer Vision · OpenCV</p>
-            <h3 class="project-title">Multiple Face Recognition AI</h3>
-            <div class="project-desc">
-              <p>Real-time multiple face detection and recognition system using Python and OpenCV. Capable of identifying and drawing bounding boxes around multiple faces simultaneously from live video streams.</p>
-            </div>
-            <ul class="project-tech">
-              <li>Python</li><li>OpenCV</li><li>face_recognition</li><li>NumPy</li>
-            </ul>
-            <div class="project-links">
-              <a href="https://github.com/aakashpadhiyar/Multiple-Face-Recognition-AI-using-Python" target="_blank" rel="noopener" aria-label="GitHub Repository">
-                <i class="bx bxl-github"></i>
-              </a>
-              <a href="projects/mfr.html" aria-label="View Project Details">
-                <i class="bx bx-link-external"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal reveal-delay-1" data-category="data">
-          <div class="project-img">
-            <img src="assets/img/project/ml.jpg" alt="NBA Basketball Stats Explorer" loading="lazy">
-          </div>
-          <div class="project-content">
-            <p class="project-label">Data Science · Streamlit</p>
-            <h3 class="project-title">NBA Basketball Stats Explorer</h3>
-            <div class="project-desc">
-              <p>An interactive NBA statistics explorer built with Python and Streamlit. Browse player performance stats, filter by team and year, and visualize data through heatmaps and charts.</p>
-            </div>
-            <ul class="project-tech">
-              <li>Python</li><li>Streamlit</li><li>Pandas</li><li>Seaborn</li><li>Matplotlib</li>
-            </ul>
-            <div class="project-links">
-              <a href="https://github.com/aakashpadhiyar/Streamlit_basketBall_dataframe" target="_blank" rel="noopener" aria-label="GitHub Repository">
-                <i class="bx bxl-github"></i>
-              </a>
-              <a href="projects/streamb.html" aria-label="View Project Details">
-                <i class="bx bx-link-external"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal reveal-delay-2" data-category="data">
-          <div class="project-img">
-            <img src="assets/img/project/vdg.jpg" alt="DNA Sequence Visualizer" loading="lazy">
-          </div>
-          <div class="project-content">
-            <p class="project-label">Bioinformatics · Streamlit</p>
-            <h3 class="project-title">DNA Sequence Visualizer</h3>
-            <div class="project-desc">
-              <p>A bioinformatics web app for DNA nucleotide counting and composition visualization. Input any DNA sequence and generate interactive bar charts and dataframes showing nucleotide distribution.</p>
-            </div>
-            <ul class="project-tech">
-              <li>Python</li><li>Streamlit</li><li>Altair</li><li>Pandas</li>
-            </ul>
-            <div class="project-links">
-              <a href="https://github.com/aakashpadhiyar/streamlit_basics_eg-DNA-App" target="_blank" rel="noopener" aria-label="GitHub Repository">
-                <i class="bx bxl-github"></i>
-              </a>
-              <a href="projects/streamd.html" aria-label="View Project Details">
-                <i class="bx bx-link-external"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal" data-category="data">
-          <div class="project-img">
-            <img src="assets/img/project/iras.jpeg" alt="Stock Price Tracker" loading="lazy">
+        <div class="project-card reveal reveal-delay-1" data-category="stock">
+          <div class="project-img project-img-placeholder project-img-stock">
+            <i class="bx bx-line-chart"></i>
+            <span>Stock Price Tracker</span>
           </div>
           <div class="project-content">
             <p class="project-label">FinTech · Streamlit</p>
             <h3 class="project-title">Stock Price Tracker</h3>
             <div class="project-desc">
-              <p>Real-time stock market data tracker built with Streamlit and yfinance. Visualizes historical price trends, closing prices, and volume data for any publicly traded company.</p>
+              <p>Real-time stock market data tracker built with Streamlit and yfinance. Visualizes historical price trends, closing prices, and volume data for any publicly traded company by ticker symbol.</p>
             </div>
             <ul class="project-tech">
               <li>Python</li><li>Streamlit</li><li>yfinance</li><li>Pandas</li><li>Bokeh</li>
@@ -432,35 +309,6 @@
             </div>
           </div>
         </div>
-
-        <div class="project-card reveal reveal-delay-1" data-category="web">
-          <div class="project-img">
-            <img src="assets/img/project/pomo.jpg" alt="Pomodoro Timer Web App" loading="lazy">
-          </div>
-          <div class="project-content">
-            <p class="project-label">Productivity · React.js</p>
-            <h3 class="project-title">Pomodoro Timer Web App</h3>
-            <div class="project-desc">
-              <p>A clean, minimal Pomodoro productivity timer. Features customizable work/break intervals, color transitions for mood switching, audio notifications, and responsive design for mobile and desktop.</p>
-            </div>
-            <ul class="project-tech">
-              <li>React.js</li><li>JavaScript</li><li>CSS3</li><li>HTML5</li>
-            </ul>
-            <div class="project-links">
-              <a href="https://github.com/aakashpadhiyar/pomodoro-react" target="_blank" rel="noopener" aria-label="GitHub Repository">
-                <i class="bx bxl-github"></i>
-              </a>
-              <a href="https://codesandbox.io/s/github/aakashpadhiyar/pomodoro-react" target="_blank" rel="noopener" aria-label="Live Demo">
-                <i class="bx bx-globe"></i>
-              </a>
-              <a href="projects/pomo.html" aria-label="View Project Details">
-                <i class="bx bx-link-external"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </div>
 
         <!-- NEW: Stock Market Web Application -->
         <div class="project-card reveal" data-category="stock">
@@ -566,37 +414,13 @@
           </div>
           <div class="project-content">
             <p class="project-label">React Native · AI · OCR · Education</p>
-            <h3 class="project-title">StudyAI — AI Education Assistant (Planned)</h3>
+            <h3 class="project-title">StudyAI — AI Education Assistant</h3>
             <div class="project-desc">
               <p>Designed a React Native + FastAPI-based AI education app where students upload PDFs/images, extract content via OCR, and chat with a multilingual AI tutor in English, Hindi, and Gujarati. Architecture includes offline LLM mode and voice conversation support.</p>
             </div>
             <ul class="project-tech">
               <li>React Native</li><li>FastAPI</li><li>Ollama</li>
               <li>OCR</li><li>Gemini API</li><li>Voice AI</li><li>Expo</li>
-            </ul>
-            <div class="project-links">
-              <a href="https://github.com/aakashpadhiyar" target="_blank" rel="noopener" aria-label="GitHub">
-                <i class="bx bxl-github"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- NEW: AI Content Automation -->
-        <div class="project-card reveal reveal-delay-2" data-category="ai">
-          <div class="project-img project-img-placeholder project-img-content">
-            <i class="bx bx-broadcast"></i>
-            <span>AI Content Automation</span>
-          </div>
-          <div class="project-content">
-            <p class="project-label">AI Agents · Automation · Social Media</p>
-            <h3 class="project-title">AI LinkedIn Content Automation (Planned)</h3>
-            <div class="project-desc">
-              <p>Designing an AI-powered system to generate daily LinkedIn posts with AI-generated images, engagement-focused captions, Telegram-based human approval before publishing, and VPS-scheduled automation — a human-in-the-loop content pipeline.</p>
-            </div>
-            <ul class="project-tech">
-              <li>Python</li><li>AI Agents</li><li>Image Generation</li>
-              <li>Telegram Bot API</li><li>VPS</li><li>Social Automation</li>
             </ul>
             <div class="project-links">
               <a href="https://github.com/aakashpadhiyar" target="_blank" rel="noopener" aria-label="GitHub">
@@ -748,7 +572,7 @@
             <span>WebSocket APIs</span><span>OAuth</span>
             <span>Git</span><span>GitHub</span><span>Jupyter</span>
             <span>VS Code</span><span>Linux Terminal</span><span>Android Studio</span>
-            <span>scikit-learn</span><span>TensorFlow</span><span>OpenCV</span>
+            <span>PyCharm</span><span>Postman</span><span>Docker (basics)</span>
           </div>
         </div>
 

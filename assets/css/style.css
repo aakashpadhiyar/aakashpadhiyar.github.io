@@ -727,6 +727,79 @@ h1, h2, h3, h4, h5, h6 {
 
 .project-card:hover .project-img img { transform: scale(1.06); }
 
+/* CSS placeholder images for new projects */
+.project-img-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(135deg, var(--bg-medium) 0%, var(--bg-card) 100%);
+}
+
+.project-img-placeholder::after { display: none; }
+
+.project-img-placeholder i {
+  font-size: 2.8rem;
+  opacity: 0.7;
+}
+
+.project-img-placeholder span {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+
+.project-img-stock {
+  background: linear-gradient(135deg, #0a1628 0%, #0d2040 50%, #112240 100%);
+  border-bottom: 2px solid rgba(100, 255, 218, 0.2);
+}
+.project-img-stock i { color: var(--accent); }
+
+.project-img-ai {
+  background: linear-gradient(135deg, #0a1628 0%, #1a1040 50%, #112240 100%);
+  border-bottom: 2px solid rgba(87, 203, 255, 0.2);
+}
+.project-img-ai i { color: var(--accent-blue); }
+
+.project-img-scraping {
+  background: linear-gradient(135deg, #0a1a1a 0%, #0d2030 50%, #112240 100%);
+  border-bottom: 2px solid rgba(100, 255, 218, 0.15);
+}
+.project-img-scraping i { color: #7ec8e3; }
+
+.project-img-telegram {
+  background: linear-gradient(135deg, #0a1a28 0%, #0d2040 50%, #112240 100%);
+  border-bottom: 2px solid rgba(41, 182, 246, 0.2);
+}
+.project-img-telegram i { color: #29b6f6; }
+
+.project-img-study {
+  background: linear-gradient(135deg, #0a1428 0%, #1a1838 50%, #112240 100%);
+  border-bottom: 2px solid rgba(179, 136, 255, 0.2);
+}
+.project-img-study i { color: #b388ff; }
+
+.project-img-content {
+  background: linear-gradient(135deg, #0a1428 0%, #201830 50%, #112240 100%);
+  border-bottom: 2px solid rgba(255, 138, 101, 0.2);
+}
+.project-img-content i { color: #ff8a65; }
+
+.project-img-cloud {
+  background: linear-gradient(135deg, #0a1828 0%, #0d2035 50%, #112240 100%);
+  border-bottom: 2px solid rgba(87, 203, 255, 0.2);
+}
+.project-img-cloud i { color: var(--accent-blue); }
+
+.project-img-django {
+  background: linear-gradient(135deg, #091a0e 0%, #0d2818 50%, #112240 100%);
+  border-bottom: 2px solid rgba(9, 46, 32, 0.6);
+}
+.project-img-django i { color: #44b78b; }
+
 .project-content {
   padding: 24px;
   flex: 1;

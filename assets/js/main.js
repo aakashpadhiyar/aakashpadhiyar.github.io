@@ -130,7 +130,8 @@ filterBtns.forEach(function(btn) {
 
     const filter = btn.dataset.filter;
     projectCards.forEach(function(card) {
-      if (filter === 'all' || card.dataset.category === filter) {
+      const cats = (card.dataset.category || '').split(' ');
+      if (filter === 'all' || cats.includes(filter)) {
         card.classList.remove('hidden');
       } else {
         card.classList.add('hidden');
